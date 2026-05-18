@@ -1,0 +1,1624 @@
+[
+  {
+    "XLT 3.0L V6 AT 26MY": "RANGER 26MY",
+    "Limited 3.0L V6 26MY": "RANGER 26MY",
+    "Limited + 3.0L V6 26MY": "RANGER 26MY"
+  },
+  {
+    " Equipamentos ": "Engine & Transmission",
+    "XLT 3.0L V6 AT 26MY": "Coluna1",
+    "Limited 3.0L V6 26MY": "Coluna2",
+    "Limited + 3.0L V6 26MY": "Coluna3"
+  },
+  {
+    " Equipamentos ": "Peso em ordem de marchas",
+    "XLT 3.0L V6 AT 26MY": 2283,
+    "Limited 3.0L V6 26MY": 2357,
+    "Limited + 3.0L V6 26MY": 2357
+  },
+  {
+    " Equipamentos ": "Cilindrada",
+    "XLT 3.0L V6 AT 26MY": 3,
+    "Limited 3.0L V6 26MY": 3,
+    "Limited + 3.0L V6 26MY": 3
+  },
+  {
+    " Equipamentos ": "Potência",
+    "XLT 3.0L V6 AT 26MY": 250,
+    "Limited 3.0L V6 26MY": 250,
+    "Limited + 3.0L V6 26MY": 250
+  },
+  {
+    " Equipamentos ": "Torque",
+    "XLT 3.0L V6 AT 26MY": 600,
+    "Limited 3.0L V6 26MY": 600,
+    "Limited + 3.0L V6 26MY": 600
+  },
+  {
+    " Equipamentos ": "Economia de Combustível",
+    "XLT 3.0L V6 AT 26MY": 9.55,
+    "Limited 3.0L V6 26MY": 9.55,
+    "Limited + 3.0L V6 26MY": 9.55
+  },
+  {
+    " Equipamentos ": "Transmissão Automática",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Motor Flex vs Gasolina",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Tecnologia turbo",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Quantidade de marchas",
+    "XLT 3.0L V6 AT 26MY": 10,
+    "Limited 3.0L V6 26MY": 10,
+    "Limited + 3.0L V6 26MY": 10
+  },
+  {
+    " Equipamentos ": "FHEV",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "PHEV",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "BEV",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Motor Diesel",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Paddle Shift",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "E-Shifter (Manopla eletrônica)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Tecnologia BiTurbo",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Motor Elétrico",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "E-Autonomy",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Wheels"
+  },
+  {
+    " Equipamentos ": "Liga leve",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Polegadas",
+    "XLT 3.0L V6 AT 26MY": 17,
+    "Limited 3.0L V6 26MY": 18,
+    "Limited + 3.0L V6 26MY": 20
+  },
+  {
+    " Equipamentos ": "Pneus ATR (50/50)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Pneus RunFlat",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Pneus ATR Plus (60/40)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Pneus Auto-vedantes",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Full Size Spare tires (same as vehicle base)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Estepe temporário",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Connectivity"
+  },
+  {
+    " Equipamentos ": "Loja de Aplicativos",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Digital assistant (Assistente Digital Inteligente)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Destravamento/Travamento das portas",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Ignição Rota (com agendamento ou não)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Localização do Veículo",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Vehicle Health and Alerts (+Veh Status)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Send POI to Navigation",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Geofencing / Guard Mode",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Vehicle Recovery",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Usage Based Insurance – UBI",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Wi-Fi Hotspot",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Status de carregamento (EV)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Configuração de carregamento (EV)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Trip & Charge Log (EV)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Station Finder (EV)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Trends (EV)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Rankings (EV)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Atualizaçãos OTA",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Agile Vehicle Data Collection",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Online Traffic (Sync 4)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Local Hazard information",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Zone Lighting",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "IP Pass-through",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Low Charge Alert (EV)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Charge Station Space Availability Alert (EV)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Locate and Pay (EV)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Smart Charging (EV)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Plug and Charge (EV)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Planejador de Viagem (EV)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Ice Line Up"
+  },
+  {
+    " Equipamentos ": "Bluetooth",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Camera traseira",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Camera 180 graus",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Navegador GPS",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Navegador GPS (Atualizavel)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Radio Mechless (Sem USB, Sem Bluetooth)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Reconhecimento por voz e/ou Comando de Voz",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Alto-falantes/ Tweeters (unidade)",
+    "XLT 3.0L V6 AT 26MY": 6,
+    "Limited 3.0L V6 26MY": 6,
+    "Limited + 3.0L V6 26MY": 6
+  },
+  {
+    " Equipamentos ": "Head Up Display (HUD)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Tela no painel de instrumentos (monocromática) por polegada",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Sistema de som Premium/Marca",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Head Up Display (HUD) - (realidade aumentada)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Espelhamento de tela touch screen (Android Auto / Car Play) por cabo",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Muitimedia polegadas",
+    "XLT 3.0L V6 AT 26MY": 10,
+    "Limited 3.0L V6 26MY": 12,
+    "Limited + 3.0L V6 26MY": 12
+  },
+  {
+    " Equipamentos ": "Assistência de Emergência",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Carregamento Wireless",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Subwoofer + Amplificador",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Câmera 360 graus",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Conexão Wireless Android Auto & Car Play",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Tela no painel de instrumentos colorida por polegada",
+    "XLT 3.0L V6 AT 26MY": 8,
+    "Limited 3.0L V6 26MY": 8,
+    "Limited + 3.0L V6 26MY": 12.4
+  },
+  {
+    " Equipamentos ": "Alto-falantes premium/ Tweeters (unidade)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "USB (unidade)",
+    "XLT 3.0L V6 AT 26MY": 4,
+    "Limited 3.0L V6 26MY": 4,
+    "Limited + 3.0L V6 26MY": 4
+  },
+  {
+    " Equipamentos ": "USB Passageiro (unidade)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Air conditioning"
+  },
+  {
+    " Equipamentos ": "Ar Condicionado com saída p/ 2ª fileira ou mais de bancos",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Ar Condicionado Automático e Digital",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Ar condicionado de duas zonas",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Safety"
+  },
+  {
+    " Equipamentos ": "Sistema Anti Capotamento (Rollover Stability Control)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Freio Automático (Carro Parado)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Aviso de pressão baixa dos pneus (DDS)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Sensor de Pressão dos pneus (TPMS)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Controle de descida",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Controle Adaptativo de carga",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Controle de reboque",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Trail Control",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Controle de freio do Trailer",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Vetorização de Torque",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Freio automatico após impacto",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Assistência de direção defensiva",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "ABS Off Road",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Airbag (cada)",
+    "XLT 3.0L V6 AT 26MY": 7,
+    "Limited 3.0L V6 26MY": 7,
+    "Limited + 3.0L V6 26MY": 7
+  },
+  {
+    " Equipamentos ": "High tech"
+  },
+  {
+    " Equipamentos ": "Piloto Automático",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Limitador de Velocidade",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Piloto Automático Adaptativo",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Sistema de Permanência na Faixa (alerta e assistência)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Sensor de Estacionamento Traseiro",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Sensor de Estacionamento Dianteiro",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Sensor de Chuva",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Espelho retrovisor eletrocrômico",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Acendimento automático dos faróis (sensor crepuscular)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Partida Remota (Chave)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Detector de Fadiga",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Sistema de Estacionamento Automático - (Acelera e freia)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Sistema de Estacionamento Automático - 2.0 (Supervisionado)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Sistema de Estacionamento Automático - Remoto",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Freio de mão eletrônico",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Retrovisor elétrico",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Sistema de monitoramento de ponto-cego (BLIS)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Reconhecimento de sinais de trânsito",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Abertura do porta-malas sem as mãos",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Modo de condução (Ajuste da rigidez volante)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Drive Mode (Ajuste da rigidez volante, ignição e marcha)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "AEB (Autonomous Emergency Brake)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Espelho retrovisor com rebatimento elétrico",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Piloto Automático Adaptativo + Stop & GO + Reconhecimento de Placas (Ajuste Velocidade)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Alerta de Permanência em Faixa",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Alerta de Colisão Frontal",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Sistema de centralização de faixa",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Piloto Automático Adaptativo + Stop & GO",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Sistema de monitoramento de ponto-cego (BLIS) + Alerta de trafego cruzado",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Reverse AEB",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Sistema Keyless Entry com Botão de Partida (PEPS)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Espelho retrovisor interior digital",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Aceleração Remota",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Global Closing"
+  },
+  {
+    " Equipamentos ": "Alarme Volumétrico (inclui perimétrico)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Alarme Perimétrico",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Global Opening (Vidros, Travas e/ou Sunroof)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Trava Elétrica das portas",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Vidro elétrico Traseiro",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Sistema de um toque para cima/baixo + Anti-esmagamento (valor por por porta)",
+    "XLT 3.0L V6 AT 26MY": 4,
+    "Limited 3.0L V6 26MY": 4,
+    "Limited + 3.0L V6 26MY": 4
+  },
+  {
+    " Equipamentos ": "Abertura de porta traseira 270 (Van)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Thatcham Alarm (Bateria adicional)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Global Closing (Vidros, Travas e/ou Sunroof)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Tampa do Porta-malas automatico",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Vidro Elétrico vidro caçamba (pickups)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Abertura do vidro do porta-malas",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Trim"
+  },
+  {
+    " Equipamentos ": "Bancos revestidos em couro",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Bancos revestidos parcialmente (50% Vinil / 50% Tecido)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Manopla do câmbio com acabamento em Couro",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Volante revestido em couro/vynil",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Volante revestido parcialmente em couro",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Painel Soft Touch",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Bancos revestidos 100% Vinil",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Alcantara / Outros (Adicional ao Couro/Vinil)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "SunRoof"
+  },
+  {
+    " Equipamentos ": "Teto Solar Elétrico",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Teto Solar Panorâmico",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Teto de Vidro",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Seats"
+  },
+  {
+    " Equipamentos ": "Banco Traseiro Bipartido (60/40)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Banco Traseiro aquecido",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Bancos traseiros rebatíveis (100%)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Acento traseiro rebatimento pra Frente",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Banco Traseiro Flip & Fold com compartimento",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Banco com Memória",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Bancos Aquecimento (Frontal)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Bancos refrigerado (Frontal)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "3ª fileira de Bancos",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Rebatimento Automatico do Encosto do banco traseiro",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Terceiro Assento dianteiro",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Massagem bancos dianteiros",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Bancos reclináveis 180°",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Banco posições Elétrico (cada posição)",
+    "XLT 3.0L V6 AT 26MY": 8,
+    "Limited 3.0L V6 26MY": 8,
+    "Limited + 3.0L V6 26MY": 8
+  },
+  {
+    " Equipamentos ": "Banco posições Manual",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Bancos Recaro",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Lights"
+  },
+  {
+    " Equipamentos ": "Faróis Full LED",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Faróis de Xenon",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Faróis direcionais",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Faróis auxiliares em curvas",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Farol com Projetor",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "LED Day time running lights (DTRL) + Signature Lights",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Farol alto automático",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Faróis de Neblina Dianteiro",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Luz de Neblina Traseiro",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Lanternas em LED - parcial",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Lanternas em Full LED",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Seta no retrovisor",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Lâmpada Farol de Neblina LED",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Farois Matrix Led",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Iluminação 360°",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Ajuste de altura de faróis automático",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Ajuste de Altura de faróis",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Iluminação na caçamba (interno) + Chicote Elétrico",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "4X4"
+  },
+  {
+    " Equipamentos ": "Tração 4x4 (high/low)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Diferencial traseiro blocante",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Diferencial traseiro com deslizamento limitado",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Santo Antônio tubular (Pickups)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Santo Antônio (estilizado c/ box rail)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Estribo Lateral Plataforma (Pickups)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Estribo Lateral tubular metálico (Pickups)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Bloqueio de diferencial dianteiro (FWD)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Protetor de Caçamba",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Box rails (na parte superior da caçamba)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Capota Maritima (Pickups)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Terrain Management System (i.e: Modes Auto, Sand, Snow, Mud, Rock)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Capota Rigida",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Tração Traseira",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Tração integral (AWD)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Suspensão Off road FOX Live Valve Eixo Frontal/Traseiro",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "4x4 Lock (Adicional ao AWD) - 4WD",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Protetor de Caçamba Spray-in",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Suspensão Melhorada",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Santo Antônio Deslizante (Swing in Place)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Peito de aço",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Suspensão a Ar (Active Level)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Others"
+  },
+  {
+    " Equipamentos ": "Anos de garantia",
+    "XLT 3.0L V6 AT 26MY": 5,
+    "Limited 3.0L V6 26MY": 5,
+    "Limited + 3.0L V6 26MY": 5
+  },
+  {
+    " Equipamentos ": "Anos de garantia da bateria (HEV or BEV)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Tomada 110V (cada)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Apoio de braço dianteiro (integrado no banco)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Apoio de braço traseiro",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Cabine Dupla (pickups)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Cabine simples (pickups)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Cabine simples sem caçamba (Chassis) (pickups)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Alargadores de Paralamas",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Ajuste dos Pedais elétrico",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Degrau acesso caçamba",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Assistente da Tampa da Caçamba",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Travamento elétrico da caçamba",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Capota Marítima Elétrica",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Faixa Adesiva (ex: capo, lateral, etc)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Freios Brembo (Por Eixo)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Sistema de escapamento com Válvula ativa",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Pro Power 2.000W",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Escada de acesso à caçamba",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Superfície para trabalho na tampa na caçamba",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Monitor de vida util do óleo",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Bagageiro de teto (barras longitudinais)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Compartimento para caçamba",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Tampa Traseira Multifuncional (c/ abertura lateral)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Engate de Reboque 3.500 kg",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Volantes aquecidos",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Tacógrafo Digital",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Bagageiro de teto (barras transversais)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Bússola e inclinômetros longitudinal e transversal",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Console dianteiro central com apoio de braço",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Disco de freio traseiro",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Espelho Retrovisor Externo Cromado",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Ganchos para Reboque (cada)",
+    "XLT 3.0L V6 AT 26MY": 1,
+    "Limited 3.0L V6 26MY": 2,
+    "Limited + 3.0L V6 26MY": 2
+  },
+  {
+    " Equipamentos ": "Grade do radiador com acabamento Premium (Black Piano, Cromo, Cor veiculo)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Maçanetas externas cromadas",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Molduras Laterais na Cor do Veículo (Friso)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Molduras Laterais na Cor Preta (Friso)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Moldura cromada/Black Piano das janelas",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Para Barro (Par)",
+    "XLT 3.0L V6 AT 26MY": 2,
+    "Limited 3.0L V6 26MY": 2,
+    "Limited + 3.0L V6 26MY": 2
+  },
+  {
+    " Equipamentos ": "Para-choque Traseiro Cromado",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Para-choque na Cor do Veículo",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Protetor de cárter",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Protetor inferior do tanque de combustível",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Aerofólio (Spoiler)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Tapete de porta-malas",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Tapete de Borracha",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Tapete Carpete",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Iluminação Ambiente One Color (Ambient Light)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Iluminação Ambiente Multi-Color (Ambient Light)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Retrovisores com luz de aproximação",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Preparação para reboque (Chicote)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Teto pintado em duas cores",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Sistema de gerencimento de carga dos porta malas/caçamba (Divisão de Espaços)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  },
+  {
+    " Equipamentos ": "Tomada 12V (cada)",
+    "XLT 3.0L V6 AT 26MY": "X",
+    "Limited 3.0L V6 26MY": "X",
+    "Limited + 3.0L V6 26MY": "X"
+  },
+  {
+    " Equipamentos ": "Estribo lateral elétrico (por lado)",
+    "XLT 3.0L V6 AT 26MY": 0,
+    "Limited 3.0L V6 26MY": 0,
+    "Limited + 3.0L V6 26MY": 0
+  }
+]
