@@ -1,0 +1,17 @@
+[
+  {
+    "id": 99,
+    "brand": "Toyota",
+    "model": "Hilux",
+    "version": "GR-S 2.8 Diesel",
+    "specifications": {
+      "Potência": 224,
+      "Torque": 550,
+      "Bluetooth": "X",
+      "Multimídia polegadas": 9,
+      "Motor Diesel": "X",
+      "Tração integral (AWD)": "X",
+      "Airbag (cada)": 7
+    }
+  }
+]
