@@ -337,7 +337,7 @@ Abrir:
 
 ---
 
-#Integrantes
+# Integrantes
 
 - Augusto Ferreira Rogel de Souza / RM 557709
 - Heitor Prestes / RM 554823
