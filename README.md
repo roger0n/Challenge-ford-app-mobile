@@ -1,4 +1,4 @@
-# Ford Auto Intelligence 🚘
+# Ford Auto Intelligence 
 
 Aplicação mobile desenvolvida para o desafio de **Inteligência Competitiva Automotiva Ford**, utilizando **React Native + Expo + TypeScript** no frontend e **Node.js + Express + TypeScript** no backend.
 
