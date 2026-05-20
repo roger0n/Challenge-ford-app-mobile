@@ -3,7 +3,7 @@ import axios from "axios";
 const api = axios.create({
 
   baseURL:
-    "http://192.168.0.20:3333/api"
+    "http://SEU_IP_LOCAL:3333/api"
 });
 
 export default api;
