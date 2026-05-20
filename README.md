@@ -122,7 +122,7 @@ Novos veículos podem ser importados:
 - Sem necessidade de alterar código.
 
 Exemplo:
-
+```json
 [
 {
 "id":99,
@@ -132,8 +132,9 @@ Exemplo:
 "specifications":{}
 }
 ]
-
-na pasta ford-auto-intelligence-mobile\src\app\novo-veiculo.json você encontrara o arquivo novo-veiculo.json, onde vc pode fazer o teste do import se desejar
+```
+na pasta ford-auto-intelligence-mobile\src\app\novo-veiculo.json 
+você encontrara o arquivo novo-veiculo.json, onde vc pode fazer o teste do import se desejar
 
 
 ### Persistência Local (AsyncStorage)
