@@ -1,9 +1,11 @@
+import "dotenv/config";
 import express from "express";
 
 import cors from "cors";
 
-import vehicleRoutes
-from "./routes/vehicleRoutes";
+import aiRoutes from "./routes/ai.routes";
+
+import vehicleRoutes from "./routes/vehicleRoutes";
 
 const app = express();
 
@@ -15,6 +17,8 @@ app.use(
   "/api/vehicles",
   vehicleRoutes
 );
+
+app.use("/api/ai", aiRoutes);
 
 const PORT = 3333;
 
