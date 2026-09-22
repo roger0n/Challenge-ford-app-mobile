@@ -281,6 +281,20 @@ function getCategoryBadge(
   }
 }
 
+function formatValue(value: any) {
+
+  if (
+    value === undefined ||
+    value === null ||
+    value === "" ||
+    value === "X"
+  ) {
+    return "N/A";
+  }
+
+  return String(value);
+}
+
   return (
     <ScrollView style={styles.container}>
 
@@ -599,7 +613,7 @@ function getCategoryBadge(
   const valueB =
     vehicleB?.specifications?.[spec];
 
-  return valueA !== valueB;
+  return (formatValue(valueA) !==formatValue(valueB));
 })
 
   .map((spec) => {
@@ -609,9 +623,9 @@ function getCategoryBadge(
 
     const valueB =
       vehicleB?.specifications?.[spec];
-
-    const different =
-      valueA !== valueB;
+      const different =
+      formatValue(valueA) !==
+      formatValue(valueB);
 
     return (
 
@@ -637,15 +651,9 @@ function getCategoryBadge(
             styles.highlightText
           ]}
         >
-          {
-          valueA === 0 ||
-          valueA === undefined ||
-          valueA === null
           
-          ? "N/A"
+        {formatValue(valueA)}
           
-          : String(valueA)
-          }
         </Text>
 
         <Text
@@ -656,15 +664,7 @@ function getCategoryBadge(
             styles.highlightText
           ]}
         >
-          {
-          valueB === 0 ||
-          valueB === undefined ||
-          valueB === null
-          
-          ? "N/A"
-          
-          : String(valueB)
-          }
+        {formatValue(valueB)}
         </Text>
 
       </View>

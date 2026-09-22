@@ -5,6 +5,8 @@ import {
   TouchableOpacity
 } from "react-native";
 
+import AsyncStorage from "@react-native-async-storage/async-storage";
+
 import styles from "../../styles/[id].styles";
 
 import {
@@ -29,18 +31,49 @@ export default function VehicleDetails() {
 
   async function loadVehicle() {
 
-    try {
+  try {
 
-      const response =
-        await api.get(`/vehicles/${id}`);
+    const saved =
+      await AsyncStorage.getItem(
+        "vehicles"
+      );
 
-      setVehicle(response.data);
+    if (saved) {
 
-    } catch (error) {
+      const vehicles =
+        JSON.parse(saved);
 
-      console.log(error);
+      const localVehicle =
+        vehicles.find(
+          (vehicle: any) =>
+            vehicle.id.toString() ===
+            id?.toString()
+        );
+
+      if (localVehicle) {
+
+        setVehicle(
+          localVehicle
+        );
+
+        return;
+      }
     }
+
+    const response =
+      await api.get(
+        `/vehicles/${id}`
+      );
+
+    setVehicle(
+      response.data
+    );
+
+  } catch (error) {
+
+    console.log(error);
   }
+}
 
   useEffect(() => {
 
@@ -101,9 +134,10 @@ export default function VehicleDetails() {
 
           <Text style={styles.specValue}>
             {
-            value === 0 ||
             value === undefined ||
-            value === null
+            value === null ||
+            value === "" ||
+            value === "X"
             
             ? "N/A"
             
