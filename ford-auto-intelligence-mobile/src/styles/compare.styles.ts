@@ -332,6 +332,19 @@ backText: {
 
   fontWeight: "700"
 },
+importButton: {
+  backgroundColor: "#2563EB",
+  padding: 14,
+  borderRadius: 10,
+  alignItems: "center",
+  marginTop: 10
+},
+
+importButtonText: {
+  color: "#FFFFFF",
+  fontSize: 15,
+  fontWeight: "600"
+},
 });
 
 export default styles;

@@ -167,6 +167,27 @@ async function handleLogout() {
 
      </TouchableOpacity>
 
+     <TouchableOpacity
+        style={{
+        backgroundColor: "#7C3AED",
+        padding: 16,
+        borderRadius: 12,
+        marginBottom: 20,
+        alignItems: "center"
+      }}
+        onPress={() => router.push("/ai")}
+      >
+      <Text
+        style={{
+        color: "#FFFFFF",
+        fontWeight: "bold",
+        fontSize: 16
+        }}
+      >
+        Assistente IA
+      </Text>
+    </TouchableOpacity>
+
       <FlatList
 
         data={vehicles}

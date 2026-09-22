@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 import {
+  Platform,
   View,
   Text,
   ScrollView,
@@ -9,6 +10,10 @@ import {
 } from "react-native";
 
 import styles from "../styles/compare.styles";
+
+import * as DocumentPicker from "expo-document-picker";
+
+import * as FileSystem from "expo-file-system/legacy";
 
 import {
   router
@@ -108,64 +113,89 @@ useEffect(() => {
 
 }, []);
 
-  function importJson(
-  event: any
-) {
+  async function importJson() {
 
-  const file =
-    event.target.files[0];
+  try {
 
-  if (!file)
-    return;
+    const result =
+      await DocumentPicker.getDocumentAsync({
+        type: "application/json",
+        copyToCacheDirectory: true
+      });
 
-  const reader =
-    new FileReader();
+    if (result.canceled) {
+      return;
+    }
 
-  reader.onload = (
-    e: any
-  ) => {
+    const file =
+      result.assets[0];
 
-    try {
+    let content: string;
 
-      const json =
-        JSON.parse(
-          e.target.result
+    // WEB
+    if (Platform.OS === "web") {
+
+      if (!file.file) {
+        throw new Error(
+          "Arquivo não disponível no navegador."
         );
+      }
 
-      setVehicles((current) => {
+      content =
+        await file.file.text();
 
-  const merged = [
+    }
 
-    ...current,
+    // ANDROID / IOS
+    else {
 
-    ...json.filter(
-      (newVehicle: Vehicle) =>
+      content =
+        await FileSystem.readAsStringAsync(
+          file.uri
+        );
+    }
 
-        !current.some(
-          (existing) =>
+    const json =
+      JSON.parse(content);
 
-            existing.version ===
-            newVehicle.version
-        )
-    )
-  ];
-
-  saveVehicles(
-    merged
-  );
-
-  return merged;
-});
-
-    } catch {
+    if (!Array.isArray(json)) {
 
       alert(
-        "JSON inválido"
+        "O JSON deve conter uma lista de veículos."
       );
-    }
-  };
 
-  reader.readAsText(file);
+      return;
+    }
+
+    setVehicles((current) => {
+
+      const merged = [
+        ...current,
+
+        ...json.filter(
+          (newVehicle: Vehicle) =>
+
+            !current.some(
+              (existing) =>
+                existing.version ===
+                newVehicle.version
+            )
+        )
+      ];
+
+      saveVehicles(merged);
+
+      return merged;
+    });
+
+  } catch (error) {
+
+    console.log(error);
+
+    alert(
+      "Não foi possível importar o JSON."
+    );
+  }
 }
 
   const specs =
@@ -327,19 +357,14 @@ function formatValue(value: any) {
     Importar Datasheet JSON
   </Text>
 
-  <input
-
-    type="file"
-
-    accept=".json"
-
-    onChange={importJson}
-
-    style={{
-
-      color: "white"
-    }}
-  />
+  <TouchableOpacity
+  style={styles.importButton}
+  onPress={importJson}
+>
+  <Text style={styles.importButtonText}>
+    Selecionar arquivo JSON
+  </Text>
+</TouchableOpacity>
 
 </View>
 
