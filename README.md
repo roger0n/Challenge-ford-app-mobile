@@ -1,14 +1,14 @@
-# Ford Auto Intelligence 
+# Ford Auto Intelligence
 
-Aplicação mobile desenvolvida para o desafio de **Inteligência Competitiva Automotiva Ford**, utilizando **React Native + Expo + TypeScript** no frontend e **Node.js + Express + TypeScript** no backend.
+Aplicação multiplataforma desenvolvida para o desafio de **Inteligência Competitiva Automotiva Ford**, utilizando **React Native + Expo + TypeScript** no frontend e **Node.js + Express + TypeScript** no backend.
 
-O objetivo da solução é transformar dados técnicos automotivos em uma plataforma de comparação inteligente, permitindo visualizar especificações padronizadas, comparar versões e receber novos dados técnicos dinamicamente.
+O objetivo da solução é transformar dados técnicos automotivos em uma plataforma de inteligência competitiva, permitindo visualizar especificações padronizadas, comparar diferentes versões de veículos, importar novos datasheets e utilizar Inteligência Artificial para auxiliar na análise das informações.
 
 ---
 
 # Objetivo do Projeto
 
-O mercado automotivo exige análises rápidas e precisas sobre:
+O mercado automotivo exige análises rápidas e precisas de informações como:
 
 - Equipamentos
 - Potência
@@ -16,53 +16,85 @@ O mercado automotivo exige análises rápidas e precisas sobre:
 - Segurança
 - Tecnologia embarcada
 - Itens de conforto
-- Diferenciais entre versões
+- Capacidades do veículo
+- Recursos Off-Road
+- Diferenças entre versões
 
-A solução desenvolvida permite:
+O **Ford Auto Intelligence** centraliza essas informações e apresenta os dados de maneira organizada e comparável.
 
-✅ Receber dados técnicos automotivos
+A solução permite:
 
-✅ Padronizar informações
+- Receber dados técnicos automotivos
+- Padronizar informações
+- Consultar detalhes dos veículos
+- Comparar diferentes versões
+- Destacar diferenças automaticamente
+- Selecionar atributos específicos para comparação
+- Importar novos veículos através de JSON
+- Persistir dados localmente
+- Realizar autenticação local de usuários
+- Consultar um Assistente de Inteligência Artificial
+- Executar em Web e Android
+- Instalar o aplicativo através de APK
 
-✅ Comparar veículos
+---
 
-✅ Destacar diferenças automaticamente
+# Arquitetura da Solução
 
-✅ Persistir dados localmente
+A aplicação está dividida em frontend e backend.
 
-✅ Adicionar novos veículos sem alterar código
+```text
+Ford Auto Intelligence
+        │
+        ├── Mobile / Web
+        │   React Native + Expo
+        │
+        │
+        ├── API REST
+        │   Node.js + Express
+        │
+        └── Assistente IA
+            Google Gemini
+```
+
+O aplicativo mobile/web realiza requisições HTTP para a API REST hospedada publicamente.
+
+A API é responsável por disponibilizar os veículos e intermediar as consultas realizadas ao modelo de Inteligência Artificial.
+
+As informações importadas pelo usuário também podem ser armazenadas localmente através do AsyncStorage.
 
 ---
 
 # Backend — ford-auto-intelligence-api
 
-Responsável por:
+O backend é responsável por:
 
-- Ler dataset JSON
-- Padronizar veículos
-- Gerar API REST
-- Servir dados ao aplicativo mobile
+- Ler o dataset dos veículos
+- Transformar e padronizar os dados
+- Disponibilizar os veículos através de uma API REST
+- Receber perguntas enviadas pelo aplicativo
+- Enviar informações dos veículos para o Assistente IA
+- Retornar as respostas da IA para o aplicativo
 
-Tecnologias:
+## Tecnologias
 
 - Node.js
 - Express
 - TypeScript
+- Google Gemini
+- Google GenAI SDK
+- CORS
+- dotenv
+
+O backend está hospedado publicamente, permitindo que o APK e a versão Web utilizem a mesma API sem depender de um servidor executado localmente.
 
 ---
 
 # Frontend — ford-auto-intelligence-mobile
 
-Responsável por:
+O frontend é responsável pela interface e interação do usuário com a plataforma.
 
-- Interface visual
-- Comparação entre veículos
-- Filtros
-- Busca
-- Upload JSON
-- Persistência local
-
-Tecnologias:
+## Tecnologias
 
 - React Native
 - Expo
@@ -70,275 +102,695 @@ Tecnologias:
 - Expo Router
 - Axios
 - AsyncStorage
+- Expo File System
+
+O projeto utiliza **Expo SDK 57**.
+
+---
 
 # Funcionalidades Implementadas
 
-### Comparação Inteligente
+## Autenticação
 
-Usuário escolhe:
+O aplicativo possui fluxo de:
 
-Veículo A
+- Cadastro de usuário
+- Login
+- Validação dos campos
+- Controle de sessão
+- Logout
 
-Veículo B
+A sessão e os usuários são armazenados localmente utilizando AsyncStorage.
 
-O sistema:
-
-- destaca diferenças
-- organiza por categoria
-- padroniza visualização
-
-### Dashboard Executivo
-
-Resumo automático:
-
-Tecnologia → Melhor veículo
-
-Segurança → Melhor veículo
-
-Motor → Melhor veículo
-
-### Busca de Especificações
-
-Permite Filtrar dinamicamente atributos técnicos.
-
-### Seleção Livre de Atributos
-
-Usuário escolhe:
-
-- ✓ Potência
-
-- ✓ Torque
-
-- ✓ Bluetooth
-
-Mostrando apenas itens desejados.
-
-### Upload Dinâmico JSON
-
-Novos veículos podem ser importados:
-
-- Importar Datasheet JSON
-
-- Sem necessidade de alterar código.
-
-Exemplo:
-```json
-[
-{
-"id":99,
-"brand":"Toyota",
-"model":"Hilux",
-"version":"GR-S",
-"specifications":{}
-}
-]
-```
-na pasta ford-auto-intelligence-mobile\src\app\novo-veiculo.json 
-você encontrara o arquivo novo-veiculo.json, onde vc pode fazer o teste do import se desejar
-
-
-### Persistência Local (AsyncStorage)
-
-Dados importados permanecem salvos.
-
-### Tratamento de Dados Ausentes
-
-Valores ausentes:
-
-- undefined
-
-- null
-
-- 0
-
-São exibidos como:
-
-- N/A
-
-### Configuração do IP Local
-
-Para permitir que o aplicativo mobile consuma a API local, foi configurado o endereço IP da máquina.
-
-Arquivo:
-
-ford-auto-intelligence-mobile/services/api.ts
-
-Configuração:
-
-import axios from "axios";
-
-export default axios.create({
-baseURL:"http://SEU_IP_LOCAL:3333/api"
-});
-
-Exemplo:
-
-- baseURL:"http://192.168.0.20:3333/api"
-
-### Como descobrir IP local
-
-Windows:
-
-Prompt de Comando:
-
-- ipconfig
-
-- Procurar:
-
-- IPv4 Address
-
-Exemplo:
-
-- 192.168.0.20
+> A autenticação implementada possui finalidade acadêmica/demonstrativa. Em uma aplicação de produção, senhas e autenticação devem ser tratadas por um backend seguro.
 
 ---
 
-# Como Rodar Backend
+## Visualização dos Veículos
 
-Entrar:
+A tela inicial apresenta os veículos disponíveis na plataforma.
+
+O usuário pode selecionar uma versão para consultar suas especificações técnicas detalhadas.
+
+Entre os veículos utilizados para validação estão versões da Ford Ranger.
+
+---
+
+## Detalhes Técnicos
+
+Cada veículo possui uma tela de detalhes contendo suas especificações técnicas padronizadas.
+
+Isso permite que diferentes veículos utilizem uma estrutura consistente de apresentação.
+
+---
+
+## Comparação Inteligente
+
+O usuário pode selecionar:
+
+- Veículo A
+- Veículo B
+
+O sistema apresenta as especificações lado a lado, facilitando a identificação das diferenças entre os veículos.
+
+A mesma versão não pode ser selecionada simultaneamente nos dois lados da comparação.
+
+---
+
+## Busca de Especificações
+
+A tela de comparação possui busca de atributos técnicos.
+
+O usuário pode pesquisar características específicas do veículo e selecionar os atributos desejados para análise.
+
+Exemplos:
+
+- Potência
+- Torque
+- Bluetooth
+- Segurança
+- Tecnologia
+- Recursos Off-Road
+
+---
+
+## Seleção Livre de Atributos
+
+O usuário pode selecionar quais características deseja visualizar durante a comparação.
+
+Exemplo:
+
+```text
+✓ Potência
+✓ Torque
+✓ Bluetooth
+```
+
+Dessa forma, a interface pode apresentar somente as informações relevantes para a análise desejada.
+
+---
+
+## Destaque de Diferenças
+
+A aplicação consegue identificar valores diferentes entre os veículos selecionados e destacar essas diferenças durante a comparação.
+
+Isso facilita a análise das características que diferenciam cada versão.
+
+---
+
+## Resumo Executivo
+
+A tela de comparação apresenta um resumo das informações analisadas, facilitando a identificação dos principais diferenciais entre os veículos selecionados.
+
+---
+
+# Assistente de Inteligência Artificial
+
+O Ford Auto Intelligence possui um Assistente IA integrado ao aplicativo.
+
+O usuário pode realizar perguntas em linguagem natural sobre os veículos disponíveis.
+
+Exemplos:
+
+```text
+Qual veículo possui maior potência?
+```
+
+```text
+Compare a Ranger XLT com a Limited.
+```
+
+```text
+Quais são as principais diferenças entre essas versões?
+```
+
+O aplicativo envia para o backend:
+
+- Pergunta realizada pelo usuário
+- Dados dos veículos disponíveis
+
+O backend utiliza o **Google Gemini** para analisar essas informações e retornar uma resposta em português.
+
+A IA é orientada a utilizar os dados fornecidos pela aplicação para responder perguntas sobre as especificações dos veículos, evitando inventar características não disponíveis no dataset.
+
+A chave da API Gemini permanece exclusivamente no backend e não é armazenada no aplicativo mobile.
+
+---
+
+# Importação Dinâmica de JSON
+
+Novos veículos podem ser adicionados através da opção:
+
+```text
+Importar Datasheet JSON
+```
+
+A funcionalidade está disponível tanto na versão Web quanto no Android.
+
+O aplicativo permite selecionar um arquivo `.json`, processar suas informações e adicionar novos veículos sem necessidade de alterar o código-fonte.
+
+Exemplo:
+
+```json
+[
+  {
+    "id": 99,
+    "brand": "Toyota",
+    "model": "Hilux",
+    "version": "GR-S",
+    "specifications": {
+      "Potência": "204 cv",
+      "Torque": "50,9 kgfm"
+    }
+  }
+]
+```
+
+Um arquivo de exemplo para teste pode ser encontrado no projeto:
+
+```text
+ford-auto-intelligence-mobile/src/app/novo-veiculo.json
+```
+
+> Caso a localização do arquivo seja alterada no projeto, atualize este caminho no README.
+
+---
+
+# Persistência Local
+
+O aplicativo utiliza **AsyncStorage** para armazenar informações localmente.
+
+Entre os dados persistidos estão:
+
+- Sessão do usuário
+- Usuários cadastrados
+- Veículos importados
+
+Isso permite manter determinadas informações mesmo após fechar e abrir novamente o aplicativo.
+
+---
+
+# Tratamento de Dados Ausentes
+
+Especificações que não possuem informação disponível são apresentadas como:
+
+```text
+N/A
+```
+
+São considerados indisponíveis valores como:
+
+- `undefined`
+- `null`
+- string vazia
+- `X`
+
+O valor numérico `0` é considerado um valor válido e não é convertido automaticamente para `N/A`.
+
+---
+
+# API Pública
+
+A versão final do aplicativo utiliza uma API hospedada publicamente.
+
+Isso permite que o aplicativo Android instalado através do APK funcione sem depender do endereço IP do computador do desenvolvedor.
+
+Arquivo responsável pela configuração:
+
+```text
+ford-auto-intelligence-mobile/services/api.ts
+```
+
+A URL pública do backend é configurada como `baseURL` do Axios.
+
+---
+
+# Como Executar o Projeto Localmente
+
+## Pré-requisitos
+
+Para executar o projeto é necessário possuir:
+
+- Node.js
+- npm
+- Expo
+- Navegador Web ou dispositivo Android
+
+---
+
+# Executando o Backend Localmente
+
+Entre na pasta do backend:
+
+```bash
 cd ford-auto-intelligence-api
+```
 
-Instalar dependências:
+## Instalar todas as dependências
+
+Como as dependências já estão registradas no `package.json`, basta executar:
 
 ```bash
 npm install
 ```
 
-Dependências utilizadas:
+## Dependências utilizadas no Backend
 
-### Produção
+Caso seja necessário instalar as dependências individualmente:
+
+### Express
 
 ```bash
 npm install express
+```
+
+### CORS
+
+```bash
 npm install cors
 ```
 
-### Desenvolvimento
+### Variáveis de ambiente
 
 ```bash
-npm install -D typescript
-npm install -D ts-node-dev
-npm install -D @types/node
-npm install -D @types/express
-npm install -D @types/cors
+npm install dotenv
 ```
 
-Executar:
-```bash
- npm run dev
-```
-
-Servidor:
-
-http://localhost:3333
-
-# Como Rodar Mobile
-
-Entrar:
-
-- cd ford-auto-intelligence-mobile
-
-Instalar dependências:
+### Google Gemini
 
 ```bash
-npm install
+npm install @google/genai
 ```
 
-Dependências utilizadas:
-
-### Navegação
-
-```bash
-npx expo install expo-router
-```
-
----
-
-### Requisições HTTP
+### Axios
 
 ```bash
 npm install axios
 ```
 
+### Manipulação de arquivos Excel
+
+```bash
+npm install xlsx
+```
+
+## Dependências de desenvolvimento
+
+### TypeScript
+
+```bash
+npm install -D typescript
+```
+
+### ts-node-dev
+
+```bash
+npm install -D ts-node-dev
+```
+
+### Tipagens do Node.js
+
+```bash
+npm install -D @types/node
+```
+
+### Tipagens do Express
+
+```bash
+npm install -D @types/express
+```
+
+### Tipagens do CORS
+
+```bash
+npm install -D @types/cors
+```
+
 ---
 
-### Persistência Local
+## Configuração do Gemini
+
+Crie um arquivo:
+
+```text
+.env
+```
+
+dentro de:
+
+```text
+ford-auto-intelligence-api/
+```
+
+Utilize o arquivo `.env.example` como referência.
+
+Exemplo:
+
+```env
+GEMINI_API_KEY=SUA_CHAVE_AQUI
+```
+
+> Nunca envie sua chave real para o GitHub. O arquivo `.env` deve permanecer no `.gitignore`.
+
+---
+
+## Executar o Backend
+
+Modo de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+Por padrão, o servidor local utiliza:
+
+```text
+http://localhost:3333
+```
+
+Também é possível gerar e executar a versão compilada:
+
+```bash
+npm run build
+npm start
+```
+
+---
+
+# Executando o Mobile
+
+Entre na pasta:
+
+```bash
+cd ford-auto-intelligence-mobile
+```
+
+## Instalar todas as dependências
+
+```bash
+npm install
+```
+
+As dependências necessárias já estão registradas no `package.json`.
+
+## Dependências Principais do Mobile
+
+Caso seja necessário instalar alguma dependência individualmente, utilize os comandos abaixo.
+
+### Expo Router
+
+Responsável pela navegação entre as telas:
+
+```bash
+npx expo install expo-router
+```
+
+### Axios
+
+Responsável pelas requisições HTTP para o backend:
+
+```bash
+npm install axios
+```
+
+### AsyncStorage
+
+Responsável pela persistência local de usuários, sessão e veículos:
 
 ```bash
 npx expo install @react-native-async-storage/async-storage
 ```
 
----
+### Expo File System
 
-### Expo
+Utilizado na importação de arquivos JSON:
+
+```bash
+npx expo install expo-file-system
+```
+
+### Expo Document Picker
+
+Utilizado para seleção de documentos/arquivos:
+
+```bash
+npx expo install expo-document-picker
+```
+
+### Expo Font
 
 ```bash
 npx expo install expo-font
 ```
 
----
-
-### Dependências principais do projeto
+### Expo Image
 
 ```bash
-npx expo install expo
+npx expo install expo-image
+```
+
+### Expo Status Bar
+
+```bash
+npx expo install expo-status-bar
+```
+
+### Expo Web Browser
+
+```bash
+npx expo install expo-web-browser
 ```
 
 ---
 
-# Caso ocorra erro de compatibilidade
+## Verificar o Projeto
 
-Atualizar versões:
-
-```bash
-npx expo install \
-@react-native-async-storage/async-storage@2.2.0 \
-expo@~55.0.25 \
-expo-font@~55.0.8 \
-expo-router@~55.0.15 \
-expo-symbols@~55.0.9
-```
-
-Limpar cache:
+Antes de executar, é possível verificar se as dependências e configurações estão compatíveis:
 
 ```bash
-npx expo start --clear
+npx expo-doctor
 ```
 
+---
 
-Executar:
+## Executar o Mobile
+
 ```bash
 npx expo start
 ```
 
-Abrir:
+O Expo apresentará opções para executar o projeto no:
 
 - Android
-- iOS
-- Navegador
+- Navegador Web
+- Ambiente de desenvolvimento compatível
 
 ---
 
-# Tecnologias
+# Executando Localmente na Web
 
-# Backend:
+Entre na pasta do projeto mobile:
+
+```bash
+cd ford-auto-intelligence-mobile
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute diretamente em modo Web:
+
+```bash
+npx expo start --web
+```
+
+A aplicação será aberta no navegador.
+
+Também é possível executar:
+
+```bash
+npx expo start
+```
+
+e selecionar a opção Web apresentada pelo Expo.
+
+> A versão Web utiliza a API pública configurada em `services/api.ts`.
+
+---
+
+# Instalação do Aplicativo Android
+
+A versão final Android foi gerada através do **EAS Build** no formato APK.
+
+Isso permite instalar o Ford Auto Intelligence diretamente em um dispositivo Android compatível.
+
+## Link para instalação
+
+**Link do APK:**
+
+```text
+(https://expo.dev/accounts/roger0n/projects/ford-auto-intelligence-mobile/builds/ba08d67a-7435-44dd-b864-7faad4b416f6)
+```
+
+## QR Code
+
+Escaneie o QR Code abaixo utilizando um dispositivo Android para acessar a instalação:
+
+
+<img width="442" height="513" alt="image" src="https://github.com/user-attachments/assets/e7dd87ca-735e-4ac2-84d8-83f90ee922ac" />
+
+
+
+---
+
+# Demonstração do Aplicativo
+
+## Login
+
+```text
+COLOCAR_SCREENSHOT_LOGIN_AQUI
+```
+
+## Home
+
+```text
+COLOCAR_SCREENSHOT_HOME_AQUI
+```
+
+## Detalhes do Veículo
+
+```text
+COLOCAR_SCREENSHOT_DETALHES_AQUI
+```
+
+## Comparação de Veículos
+
+```text
+COLOCAR_SCREENSHOT_COMPARACAO_AQUI
+```
+
+## Importação de Datasheet JSON
+
+```text
+COLOCAR_SCREENSHOT_IMPORTACAO_AQUI
+```
+
+## Assistente IA
+
+```text
+COLOCAR_SCREENSHOT_IA_AQUI
+```
+
+---
+
+# Estrutura do Projeto
+
+```text
+projeto/
+│
+├── ford-auto-intelligence-api/
+│   ├── src/
+│   ├── dist/
+│   ├── package.json
+│   └── .env.example
+│
+└── ford-auto-intelligence-mobile/
+    ├── app/
+    ├── assets/
+    ├── services/
+    ├── styles/
+    ├── app.json
+    ├── eas.json
+    └── package.json
+```
+
+> Arquivos gerados durante build ou contendo informações sensíveis, como `dist`, `node_modules` e `.env`, não devem ser versionados quando estiverem configurados no `.gitignore`.
+
+---
+
+# Build Android
+
+O projeto utiliza **EAS Build** para gerar a versão Android.
+
+O perfil `preview` do arquivo `eas.json` está configurado para gerar um APK instalável:
+
+```json
+{
+  "preview": {
+    "distribution": "internal",
+    "android": {
+      "buildType": "apk"
+    }
+  }
+}
+```
+
+Para gerar uma nova versão:
+
+```bash
+npx eas-cli build --platform android --profile preview
+```
+
+Após finalizar o processo, o EAS disponibiliza a versão gerada para instalação.
+
+---
+
+# Segurança
+
+Informações sensíveis não são armazenadas diretamente no código-fonte.
+
+A chave utilizada pelo Google Gemini é configurada no backend através da variável de ambiente:
+
+```text
+GEMINI_API_KEY
+```
+
+O arquivo `.env` não deve ser enviado para o GitHub.
+
+O repositório disponibiliza apenas:
+
+```text
+.env.example
+```
+
+como referência para configuração.
+
+---
+
+# Tecnologias Utilizadas
+
+## Frontend
+
+- React Native
+- Expo SDK 57
+- TypeScript
+- Expo Router
+- Axios
+- AsyncStorage
+- Expo File System
+
+## Backend
 
 - Node.js
 - Express
 - TypeScript
+- Google Gemini
+- Google GenAI SDK
+- CORS
+- dotenv
 
-# Frontend:
+## Infraestrutura
 
-- React Native
-- Expo
-- Expo Router
-- Axios
-- AsyncStorage
+- API hospedada em ambiente Cloud
+- EAS Build para geração do APK Android
 
 ---
 
 # Integrantes
 
-- Augusto Ferreira Rogel de Souza / RM 557709
-- Heitor Prestes / RM 554823
-- Lucca Ribeiro / RM 556668
+- 3ESA- Augusto Ferreira — RM 557709
+- 3ESA- Heitor Prestes — RM 554823
+- 3ESR- Lucca Ribeiro — RM 556668
