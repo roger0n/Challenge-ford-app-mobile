@@ -3,7 +3,7 @@ import axios from "axios";
 const api = axios.create({
 
   baseURL:
-    "http://localhost:3333/api"
+    "https://ford-auto-intelligence-api.onrender.com/api"
 });
 
 export default api;

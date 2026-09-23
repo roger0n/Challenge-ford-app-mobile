@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ford-auto-intelligence-mobile",
+    "name": "Ford Auto Intelligence",
     "slug": "ford-auto-intelligence-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,6 +11,8 @@
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.augustorogel.fordautointelligence",
+
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -35,11 +37,20 @@
           }
         }
       ],
-      "expo-font"
+      "expo-font",
+      "expo-image",
+      "expo-status-bar",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "312337bc-5635-4e0d-a1f9-0e1d036539b4"
+      }
     }
   }
 }

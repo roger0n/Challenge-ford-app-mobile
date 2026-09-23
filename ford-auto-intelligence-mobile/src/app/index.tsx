@@ -147,14 +147,9 @@ async function handleLogout() {
         Ford Auto Intelligence
       </Text>
 
-      <Text
-      style={{
-      color: "#9CA3AF",
-      fontSize: 16,
-      marginBottom: 20
-      }}>
+      <Text style={styles.welcomeText}>
         Olá, {userName}!
-        </Text>
+      </Text>
 
       <TouchableOpacity
       style={styles.compareButton}
@@ -168,24 +163,12 @@ async function handleLogout() {
      </TouchableOpacity>
 
      <TouchableOpacity
-        style={{
-        backgroundColor: "#7C3AED",
-        padding: 16,
-        borderRadius: 12,
-        marginBottom: 20,
-        alignItems: "center"
-      }}
-        onPress={() => router.push("/ai")}
-      >
-      <Text
-        style={{
-        color: "#FFFFFF",
-        fontWeight: "bold",
-        fontSize: 16
-        }}
-      >
-        Assistente IA
-      </Text>
+       style={styles.aiButton}
+       onPress={() => router.push("/ai")}
+     >
+    <Text style={styles.aiButtonText}>
+      Assistente IA
+    </Text>
     </TouchableOpacity>
 
       <FlatList
@@ -219,34 +202,17 @@ async function handleLogout() {
           </TouchableOpacity>
         )}
 
-        ListFooterComponent={
-
+  ListFooterComponent={
     <TouchableOpacity
       onPress={handleLogout}
-      style={{
-        backgroundColor: "#DC2626",
-        padding: 16,
-        borderRadius: 12,
-        alignItems: "center",
-        marginTop: 15,
-        marginBottom: 30
-      }}
+      style={styles.logoutButton}
     >
-
-      <Text
-        style={{
-          color: "#FFFFFF",
-          fontSize: 16,
-          fontWeight: "bold"
-        }}
-      >
-        Sair
-      </Text>
-
+    <Text style={styles.logoutButtonText}>
+      Sair
+    </Text>
     </TouchableOpacity>
-
   }
-      />
+    />
     </View>
   );
 }

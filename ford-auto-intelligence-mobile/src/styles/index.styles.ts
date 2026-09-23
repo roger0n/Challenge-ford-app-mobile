@@ -64,6 +64,40 @@ compareButtonText: {
   fontWeight: "bold",
 
   fontSize: 16
+},
+welcomeText: {
+  color: "#9CA3AF",
+  fontSize: 16,
+  marginBottom: 20
+},
+
+aiButton: {
+  backgroundColor: "#7C3AED",
+  padding: 16,
+  borderRadius: 12,
+  marginBottom: 20,
+  alignItems: "center"
+},
+
+aiButtonText: {
+  color: "#FFFFFF",
+  fontWeight: "bold",
+  fontSize: 16
+},
+
+logoutButton: {
+  backgroundColor: "#DC2626",
+  padding: 16,
+  borderRadius: 12,
+  alignItems: "center",
+  marginTop: 15,
+  marginBottom: 30
+},
+
+logoutButtonText: {
+  color: "#FFFFFF",
+  fontSize: 16,
+  fontWeight: "bold"
 }
 });
 

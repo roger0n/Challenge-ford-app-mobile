@@ -15,6 +15,8 @@ import AsyncStorage from
 
 import api from "../services/api";
 
+import styles from "../styles/ai.styles";
+
 export default function AI() {
 
   const [question, setQuestion] =
@@ -83,149 +85,81 @@ export default function AI() {
     }
   }
 
-  return (
+ return (
 
-    <ScrollView
-      style={{
-        flex: 1,
-        backgroundColor: "#0A0F1C"
-      }}
-      contentContainerStyle={{
-        padding: 20,
-        paddingTop: 60
-      }}
+  <ScrollView
+    style={styles.container}
+    contentContainerStyle={styles.content}
+  >
+
+    <TouchableOpacity
+      onPress={() => router.back()}
+      style={styles.backButton}
+    >
+      <Text style={styles.backText}>
+        ← Voltar
+      </Text>
+    </TouchableOpacity>
+
+    <Text style={styles.title}>
+      Assistente IA
+    </Text>
+
+    <Text style={styles.subtitle}>
+      Pergunte sobre os veículos disponíveis
+      no Ford Auto Intelligence.
+    </Text>
+
+    <TextInput
+      value={question}
+      onChangeText={setQuestion}
+      placeholder="Ex: Compare a Ranger XLT com a Limited"
+      placeholderTextColor="#6B7280"
+      multiline
+      style={styles.input}
+    />
+
+    <TouchableOpacity
+      onPress={askAI}
+      disabled={loading}
+      style={[
+        styles.askButton,
+        loading && styles.askButtonDisabled
+      ]}
     >
 
-      <TouchableOpacity
-        onPress={() => router.back()}
-        style={{
-          marginBottom: 25
-        }}
-      >
+      {loading ? (
 
-        <Text
-          style={{
-            color: "#60A5FA",
-            fontSize: 16
-          }}
-        >
-          ← Voltar
+        <ActivityIndicator
+          color="#FFFFFF"
+        />
+
+      ) : (
+
+        <Text style={styles.askButtonText}>
+          Perguntar à IA
         </Text>
-
-      </TouchableOpacity>
-
-      <Text
-        style={{
-          color: "#FFFFFF",
-          fontSize: 28,
-          fontWeight: "bold",
-          marginBottom: 8
-        }}
-      >
-        Assistente IA
-      </Text>
-
-      <Text
-        style={{
-          color: "#9CA3AF",
-          fontSize: 15,
-          marginBottom: 25
-        }}
-      >
-        Pergunte sobre os veículos disponíveis
-        no Ford Auto Intelligence.
-      </Text>
-
-      <TextInput
-        value={question}
-        onChangeText={setQuestion}
-        placeholder="Ex: Compare a Ranger XLT com a Limited"
-        placeholderTextColor="#6B7280"
-        multiline
-        style={{
-          backgroundColor: "#111827",
-          color: "#FFFFFF",
-          padding: 16,
-          borderRadius: 12,
-          minHeight: 120,
-          textAlignVertical: "top",
-          fontSize: 16,
-          marginBottom: 15
-        }}
-      />
-
-      <TouchableOpacity
-        onPress={askAI}
-        disabled={loading}
-        style={{
-          backgroundColor:
-            loading
-              ? "#374151"
-              : "#2563EB",
-          padding: 16,
-          borderRadius: 12,
-          alignItems: "center"
-        }}
-      >
-
-        {loading ? (
-
-          <ActivityIndicator
-            color="#FFFFFF"
-          />
-
-        ) : (
-
-          <Text
-            style={{
-              color: "#FFFFFF",
-              fontWeight: "bold",
-              fontSize: 16
-            }}
-          >
-            Perguntar à IA
-          </Text>
-
-        )}
-
-      </TouchableOpacity>
-
-      {answer !== "" && (
-
-        <View
-          style={{
-            backgroundColor: "#111827",
-            borderRadius: 12,
-            padding: 18,
-            marginTop: 25
-          }}
-        >
-
-          <Text
-            style={{
-              color: "#60A5FA",
-              fontSize: 16,
-              fontWeight: "bold",
-              marginBottom: 10
-            }}
-          >
-            Resposta
-          </Text>
-
-          <Text
-            style={{
-              color: "#FFFFFF",
-              fontSize: 16,
-              lineHeight: 24
-            }}
-          >
-            {answer}
-          </Text>
-
-        </View>
 
       )}
 
-    </ScrollView>
-  );
+    </TouchableOpacity>
+
+    {answer !== "" && (
+
+      <View style={styles.answerCard}>
+
+        <Text style={styles.answerTitle}>
+          Resposta
+        </Text>
+
+        <Text style={styles.answerText}>
+          {answer}
+        </Text>
+
+      </View>
+
+    )}
+
+  </ScrollView>
+);
 }

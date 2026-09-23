@@ -345,6 +345,9 @@ importButtonText: {
   fontSize: 15,
   fontWeight: "600"
 },
+contentContainer: {
+  paddingBottom: 50
+},
 });
 
 export default styles;

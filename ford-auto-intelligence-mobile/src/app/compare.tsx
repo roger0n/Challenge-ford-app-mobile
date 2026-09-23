@@ -11,9 +11,8 @@ import {
 
 import styles from "../styles/compare.styles";
 
-import * as DocumentPicker from "expo-document-picker";
+import { File } from "expo-file-system";
 
-import * as FileSystem from "expo-file-system/legacy";
 
 import {
   router
@@ -113,84 +112,99 @@ useEffect(() => {
 
 }, []);
 
+function processJson(content: string) {
+  const json = JSON.parse(content);
+
+  if (!Array.isArray(json)) {
+    alert(
+      "O JSON deve conter uma lista de veículos."
+    );
+    return;
+  }
+
+  setVehicles((current) => {
+    const merged = [
+      ...current,
+      ...json.filter(
+        (newVehicle: Vehicle) =>
+          !current.some(
+            (existing) =>
+              existing.version ===
+              newVehicle.version
+          )
+      )
+    ];
+
+    saveVehicles(merged);
+
+    return merged;
+  });
+
+  alert(
+    "Veículos importados com sucesso!"
+  );
+}
+
   async function importJson() {
-
   try {
+    let content: string;
 
-    const result =
-      await DocumentPicker.getDocumentAsync({
-        type: "application/json",
-        copyToCacheDirectory: true
-      });
+    if (Platform.OS === "web") {
+      const input = document.createElement("input");
+
+      input.type = "file";
+      input.accept = "application/json,.json";
+
+      input.onchange = async () => {
+        try {
+          const selectedFile = input.files?.[0];
+
+          if (!selectedFile) {
+            return;
+          }
+
+          const webContent =
+            await selectedFile.text();
+
+          processJson(webContent);
+
+        } catch (error) {
+          console.log(
+            "Erro ao importar JSON no Web:",
+            error
+          );
+
+          alert(
+            "Não foi possível importar o JSON."
+          );
+        }
+      };
+
+      input.click();
+
+      return;
+    }
+
+    const result = await File.pickFileAsync({
+      mimeTypes: ["application/json"],
+      multipleFiles: false
+    });
 
     if (result.canceled) {
       return;
     }
 
-    const file =
-      result.assets[0];
+    const file = result.result;
 
-    let content: string;
+    content = await file.text();
 
-    // WEB
-    if (Platform.OS === "web") {
-
-      if (!file.file) {
-        throw new Error(
-          "Arquivo não disponível no navegador."
-        );
-      }
-
-      content =
-        await file.file.text();
-
-    }
-
-    // ANDROID / IOS
-    else {
-
-      content =
-        await FileSystem.readAsStringAsync(
-          file.uri
-        );
-    }
-
-    const json =
-      JSON.parse(content);
-
-    if (!Array.isArray(json)) {
-
-      alert(
-        "O JSON deve conter uma lista de veículos."
-      );
-
-      return;
-    }
-
-    setVehicles((current) => {
-
-      const merged = [
-        ...current,
-
-        ...json.filter(
-          (newVehicle: Vehicle) =>
-
-            !current.some(
-              (existing) =>
-                existing.version ===
-                newVehicle.version
-            )
-        )
-      ];
-
-      saveVehicles(merged);
-
-      return merged;
-    });
+    processJson(content);
 
   } catch (error) {
-
-    console.log(error);
+    console.log(
+      "Erro ao importar JSON:",
+      error
+    );
 
     alert(
       "Não foi possível importar o JSON."
@@ -326,7 +340,10 @@ function formatValue(value: any) {
 }
 
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView
+  style={styles.container}
+  contentContainerStyle={styles.contentContainer}
+>
 
       <TouchableOpacity
 
