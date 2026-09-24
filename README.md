@@ -650,39 +650,34 @@ Escaneie o QR Code abaixo utilizando um dispositivo Android para acessar a insta
 
 ## Login
 
-```text
-COLOCAR_SCREENSHOT_LOGIN_AQUI
-```
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/da4fe553-9f6a-45c8-84f2-c1ec0fc43427" />
+
+## Criar Conta
+
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/47b29585-ed26-4670-8f97-812576d7f331" />
 
 ## Home
 
-```text
-COLOCAR_SCREENSHOT_HOME_AQUI
-```
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/03e2950e-8ff8-48ab-bced-822c56dd6935" />
+
 
 ## Detalhes do Veículo
 
-```text
-COLOCAR_SCREENSHOT_DETALHES_AQUI
-```
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/6667fdc1-c1e4-40e6-9ec8-7ae9f72d8bd0" />
 
 ## Comparação de Veículos
 
-```text
-COLOCAR_SCREENSHOT_COMPARACAO_AQUI
-```
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/fe61561c-4f6d-4884-b82f-d996eb4dc77a" />
+
 
 ## Importação de Datasheet JSON
 
-```text
-COLOCAR_SCREENSHOT_IMPORTACAO_AQUI
-```
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/76cac96e-b8d6-4b7a-9ed0-44e91a555c8c" />
 
 ## Assistente IA
 
-```text
-COLOCAR_SCREENSHOT_IA_AQUI
-```
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/9213f12d-8c40-41ae-9fba-7a400235c294" />
+
 
 ---
 
